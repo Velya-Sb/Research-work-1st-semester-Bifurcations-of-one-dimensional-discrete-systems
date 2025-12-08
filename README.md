@@ -1,5 +1,5 @@
 # Research-work-1st-semester-Bifurcations-of-one-dimensional-discrete-systems
-#Code for logistic map:
+Code for logistic map:
 ```python
 import matplotlib.pyplot as plt
 xvals = [[], [], []]
@@ -53,7 +53,7 @@ plt.show()
     #set(gca, 'color', 'k', 'xcolor', 'w', 'ycolor', 'w')
     #set(gcf, 'color', 'k')
 ```
-#Code for PLL
+Code for PLL
 ```python
 import matplotlib.pyplot as plt
 from math import sin
@@ -94,7 +94,7 @@ ax.set_xlabel('Alpha')
 ax.set_ylabel('X')
 plt.show()
 ```
-#Code for Tent map
+Code for Tent map
 ```python
 import matplotlib.pyplot as plt
 xvals = [[], []]
