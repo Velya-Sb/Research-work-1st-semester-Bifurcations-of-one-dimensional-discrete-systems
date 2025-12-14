@@ -19,20 +19,8 @@ while(endd > beta):
             break
     beta += 0.001
 #plt.plot(xvals[0], xvals[1], 'black.', ms = 1)
-fig, ax = plt.subplots(facecolor='black')
+__, ax = plt.subplots(facecolor='black')
 ax.set_facecolor('black')
-#Первая версия графика
-#ax.plot(xvals[0], xvals[1],'.', markersize = 1.2, color = 'white', linewidth=0.1)
-#ax.tick_params(axis='both', colors = 'white')
-#ax.spines['bottom'].set_color('white')
-#ax.spines['top'].set_color('white')
-#ax.spines['left'].set_color('white')
-#ax.spines['right'].set_color('white')
-#ax.xaxis.label.set_color('white')
-#ax.yaxis.label.set_color('white')
-#ax.set_xlabel('Beta')
-#ax.set_ylabel('X')
-
 ax.plot(xvals[1], xvals[2],'.', markersize = 1.2, color = [0.2,0.2,1], linewidth=0.1)
 ax.tick_params(axis='both', colors = 'white')
 ax.set_yticks([0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4])
